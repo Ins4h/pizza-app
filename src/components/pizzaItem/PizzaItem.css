@@ -1,0 +1,8 @@
+.pizza-box {
+    display: flex;
+}
+
+.pizza-image {
+    height: 100px;
+    width: 100px;
+}

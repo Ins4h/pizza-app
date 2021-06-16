@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/header/Header';
+import PizzaItem from './components/pizzaItem/PizzaItem';
+import CartButton from './components/cart-button/CartButton';
+import PizzaList from './components/pizzaList/PizzaList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <CartButton cartCount={3} />
+      <Header header='Hello World' />
+      <PizzaItem
+        imgUrl='https://panel.pizzeriaubatmana.pl/img/app/vegetables.png'
+        name='Pizza z szynka'
+        descr={'szynka ser pieczarki'}
+        price={{ small: '25', big: '30' }}
+      />
+      <PizzaList/>
     </div>
   );
 }

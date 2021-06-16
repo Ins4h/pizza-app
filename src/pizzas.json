@@ -1,0 +1,393 @@
+[{
+        "name": "CESARSKA",
+        "desc": "sałata, ogórek, kukurydza, pomidor, rukola, kurczak",
+        "img": "https://panel.pizzeriaubatmana.pl/img/logo_square2.jpg",
+        "priceBig": "17.00",
+        "priceSmall": "17.00"
+    },
+    {
+        "name": "MARGHERITTA",
+        "desc": "SOS POMIDOROWY, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/MARGHERITA.jpg",
+        "priceBig": "18.00",
+        "priceSmall": "18.00"
+    },
+    {
+        "name": "Pepsi",
+        "desc": "0.85l",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/pepsi.jpg",
+        "priceBig": "9.00",
+        "priceSmall": "9.00"
+    },
+    {
+        "name": "FUNGHI",
+        "desc": "SOS POMIDOROWY, PIECZARKI, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/FUNGHI.jpg",
+        "priceBig": "19.00",
+        "priceSmall": "19.00"
+    },
+    {
+        "name": "Pepsi",
+        "desc": "0,5l",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/pepsi.jpg",
+        "priceBig": "6.00",
+        "priceSmall": "6.00"
+    },
+    {
+        "name": "GRECKA",
+        "desc": "sałata, pomidor, ogórek, oliwki czarne i zielone, rukola, ser feta",
+        "img": "https://panel.pizzeriaubatmana.pl/img/logo_square2.jpg",
+        "priceBig": "17.00",
+        "priceSmall": "17.00"
+    },
+    {
+        "name": "NICEJSKA",
+        "desc": "sałata, cebula, kukurydza, rukola, jajko, tuńczyk",
+        "img": "https://panel.pizzeriaubatmana.pl/img/logo_square2.jpg",
+        "priceBig": "17.00",
+        "priceSmall": "17.00"
+    },
+    {
+        "name": "Mirinda",
+        "desc": "0.5l",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/Mirinda.jpg",
+        "priceBig": "6.00",
+        "priceSmall": "6.00"
+    },
+    {
+        "name": "CAPRICIOSA",
+        "desc": "SOS POMIDOROWY, SZYNKA, PIECZARKI, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/CAPRICOSA.jpg",
+        "priceBig": "20.00",
+        "priceSmall": "20.00"
+    },
+    {
+        "name": "ROMANA",
+        "desc": "SOS POMIDOROWY, SZYNKA, SALAMI, SER OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/ROMANA.jpg",
+        "priceBig": "20.00",
+        "priceSmall": "20.00"
+    },
+    {
+        "name": "7up",
+        "desc": "0.5l",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/7up.jpg",
+        "priceBig": "6.00",
+        "priceSmall": "6.00"
+    },
+    {
+        "name": "PROSCIUTTO",
+        "desc": "SOS POMIDOROWY, SZYNKA, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/PROSCIUTTO.jpg",
+        "priceBig": "20.00",
+        "priceSmall": "20.00"
+    },
+    {
+        "name": "Lipton cytryna",
+        "desc": "0.5l",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/Lipton_lemon.jpg",
+        "priceBig": "6.00",
+        "priceSmall": "6.00"
+    },
+    {
+        "name": "SPINACI",
+        "desc": "SOS POMIDOROWY, SZPINAK, JAJKO, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/SPINACI_B.jpg",
+        "priceBig": "20.00",
+        "priceSmall": "20.00"
+    },
+    {
+        "name": "Lipton brzoskwinia",
+        "desc": "0.5l",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/Lipton_peach.jpg",
+        "priceBig": "6.00",
+        "priceSmall": "6.00"
+    },
+    {
+        "name": "Lipton zielona herbata",
+        "desc": "0.5l",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/Lipton_green.jpg",
+        "priceBig": "6.00",
+        "priceSmall": "6.00"
+    },
+    {
+        "name": "SALAME",
+        "desc": "SOS POMIDOROWY, SALAMI, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/Salame.jpg",
+        "priceBig": "20.00",
+        "priceSmall": "20.00"
+    },
+    {
+        "name": "Woda gazowana",
+        "desc": "0.5l",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/woda_gaz.jpg",
+        "priceBig": "4.00",
+        "priceSmall": "4.00"
+    },
+    {
+        "name": "RUSTICANA",
+        "desc": "SOS POMIDOROWY, BOCZEK, CEBULA, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/RUSTICANA.jpg",
+        "priceBig": "20.00",
+        "priceSmall": "20.00"
+    },
+    {
+        "name": "SYCYLIJSKA",
+        "desc": "SOS POMIDOROWY, SALAMI, OLIWKI, PAPRYKA, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/SYCYLIJSKA.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "Woda niegazowana",
+        "desc": "0.5l",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/woda_niegaz.jpg",
+        "priceBig": "4.00",
+        "priceSmall": "4.00"
+    },
+    {
+        "name": "Sok pomarańczowy Toma",
+        "desc": "0.33l",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/sok_pomarncza.png",
+        "priceBig": "5.00",
+        "priceSmall": "5.00"
+    },
+    {
+        "name": "ITALIANA",
+        "desc": "SOS POMIDOROWY, SZYNKA, OLIWKI, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/ITALIANA.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "Sok jabłkowy Toma",
+        "desc": "0.33l",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/sok_jablko.png",
+        "priceBig": "5.00",
+        "priceSmall": "5.00"
+    },
+    {
+        "name": "RAFAELLO",
+        "desc": "SOS POMIDOROWY, SZYNKA, KUKURYDZA, GROSZEK, POMIDOR, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/RAFAELLO.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "TROPIKANA",
+        "desc": "SOS POMIDOROWY, SZYNKA, ANANAS, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/Tropikana.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "TONNO",
+        "desc": "SOS POMIDOROWY, TUŃCZYK, KUKURYDZA, CEBULA, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/Tonno.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "FRUTTI DI MARE",
+        "desc": "SOS POMIDOROWY, OWOCE MORZA, CEBULA, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/Frutti_de_mare.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "MORE MONTI",
+        "desc": "SOS POMIDOROWY, TUŃCZYK, KREWETKA KOKTAJLOWA, KUKURYDZA, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/MORE MONTI.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "PATI",
+        "desc": "SOS POMIDOROWY, KIEŁBASA, PIECZARKI, CEBULA, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/Pati.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "KRYSTIAN",
+        "desc": "SOS POMIDOROWY, RANT Z KIEŁBASĄ, PIECZARKI, CEBULA, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/KRYSTIAN.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "SPECJAL",
+        "desc": "SOS POMIDOROWY, RANT Z SEREM, SALAMI PEPERONI, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/SPECJAL.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "SEROWA",
+        "desc": "SOS POMIDOROWY, SER GOUDA, SER MOZZARELLA, SER TYPU FETA, SER PLEŚNIOWY, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/SEROWA.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "NIESPODZIANKA",
+        "desc": "SOS POMIDOROWY, 4 ĆWIARTKI  RUSTICANA, POLLO, VEGETARIANA, ROMA  NIE WYMIENIAMY ĆWIARTEK, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/NIESPODZIANKA.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "WIEJSKA",
+        "desc": "SOS POMIDOROWY, SCHAB PIECZONY, PIECZARKI, CEBULA, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/WIEJSKA.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "PRIMAVERA",
+        "desc": "SOS POMIDOROWY, PAPRYKA, PIECZARKI, GROSZEK, KUKURYDZA, BROKUŁ, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/Primavera.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "POLLO",
+        "desc": "SOS POMIDOROWY, KURCZAK, PAPRYKA, KUKURYDZA. SER. OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/POLLO.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "POLLO 2",
+        "desc": "SOS POMIDOROWY, KURCZAK, PIECZARKI, KUKURYDZA, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/Pollo_2.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "ROMA",
+        "desc": "SOS POMIDOROWY, SZYNKA, SALAMI, PAPRYKA, PIECZARKI, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/ROMA.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "BAZYLIO",
+        "desc": "SOS BAZYLIOWY, POMIDOR, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/BAZYLIO.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "VEGETARIANA",
+        "desc": "SOS POMIDOROWY, CEBULA, PAPRYKA, PIECZARKI, KUKURYDZA, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/VEGETARIANA.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "DIABLO ostra pizza",
+        "desc": "SOS POMIDOROWY, PAPRYKA PEPERONI, PAPRYKA, CZOSNEK, SER, OREGANO, CHILLI",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/Diablo.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "JALAPENIO *** bardzo ostra",
+        "desc": "SOS POMIDOROWY, TABASCO RED SAUCE, CHILLI, SZYNKA, SALAMI PEPERONI, PAPRYKA JALAPENIO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/Jalapeno.jpg",
+        "priceBig": "24.00",
+        "priceSmall": "24.00"
+    },
+    {
+        "name": "FARMERA",
+        "desc": "SOS MUSZTARDOWY, KIEŁBASA, BOCZEK, CEBULA, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/FARMERA_B.jpg",
+        "priceBig": "26.00",
+        "priceSmall": "26.00"
+    },
+    {
+        "name": "QUATRO STAGIONE",
+        "desc": "SOS POMIDOROWY, SZYNKA, GROSZEK, KUKURYDZA, PAPRYKA, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/QUATRO STAGIONE.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "CALZONE PIZZA PIERÓG",
+        "desc": "SOS POMIDOROWY, SZYNKA, PAPRYKA, KUKURYDZA, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/CALZONE.jpg",
+        "priceBig": "22.00",
+        "priceSmall": "22.00"
+    },
+    {
+        "name": "GÓRALSKA",
+        "desc": "SOS BBQ, SER GÓRALSKI, SER TYPU FETA, SER, OSOBNO SOS ŻURAWINOWY",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/Goralska.jpg",
+        "priceBig": "22.00",
+        "priceSmall": "22.00"
+    },
+    {
+        "name": "PEPERONI (papryczki peperoni)",
+        "desc": "SOS POMIDOROWY, PAPRYKA PEPERONI, PAPRYKA, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/PEPERONI.jpg",
+        "priceBig": "20.00",
+        "priceSmall": "20.00"
+    },
+    {
+        "name": "GYROS",
+        "desc": "SOS POMIDOROWY, MIĘSO GYROS, OGÓREK KONSERWOWY, SER, CURRY",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/GYROS.jpg",
+        "priceBig": "23.00",
+        "priceSmall": "23.00"
+    },
+    {
+        "name": "SALVATORE",
+        "desc": "SOS POMIDOROWY, KURCZAK, SZYNKA, OGÓREK KONSERWOWY, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/Salvatore.jpg",
+        "priceBig": "25.00",
+        "priceSmall": "25.00"
+    },
+    {
+        "name": "DON CORLEONE  CIENKIE CIASTO",
+        "desc": "SOS AMERYKAŃSKI, SZYNKA DOJRZEWAJĄCA, CEBULA, SER, OREGANO",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/DON CORLEONE.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "AMERICAN DREAM CIENKIE CIASTO",
+        "desc": "SOS AMERYKAŃSKI, SALAMI PEPERONI, SZYNKA DOJRZEWAJĄCA, SER, PARMEZAN, RUKOLA",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/American_dream.jpg",
+        "priceBig": "21.00",
+        "priceSmall": "21.00"
+    },
+    {
+        "name": "CHORIZO",
+        "desc": "SOS, SER, CHORIZO, KARCZOCHY, CZARNA FASOLA, KAPARY",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/Chorizo.jpg",
+        "priceBig": "26.00",
+        "priceSmall": "26.00"
+    },
+    {
+        "name": "DON MATTEO",
+        "desc": "SOS BBQ, SUSZONE POMIDORY, KARCZOCHY, OLIWKI, KAPARY, BAZYLIA",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/Don_mateo.jpg",
+        "priceBig": "24.00",
+        "priceSmall": "24.00"
+    },
+    {
+        "name": "SALAME PEPERONI",
+        "desc": "SOS, SER, OREGANO, SALAMI PEPERONI",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/Salame.jpg",
+        "priceBig": "23.00",
+        "priceSmall": "23.00"
+    },
+    {
+        "name": "TO LUBIĘ",
+        "desc": "Wybierz dowolne 4 składniki",
+        "img": "https://panel.pizzeriaubatmana.pl/img/products/TO LUBIE.jpg",
+        "priceBig": "26.00",
+        "priceSmall": "26.00"
+    }
+]
