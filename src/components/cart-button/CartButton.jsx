@@ -1,12 +1,22 @@
-import React from 'react';
-import img from './img2.png';
-import './CartButton.css';
+import React, { useState ,useMemo} from 'react';
+import styles from './CartButton.module.scss';
+import { ImCart } from 'react-icons/im';
+import CartContext from '../context/cart-context';
 
-const CartButton = ({ cartCount }) => (
-  <div className='cart-container'>
-    <img src={img} width='50px' />
-    <p className="counter">{cartCount}</p>
+const CartButton = ({ cartCountProp ,children}) => {
+
+const [cartCount, setCartCount] = useState(0);
+const provided = useMemo(()=> ({
+  value: cartCount,
+  setValue: (value) => setCartCount(value)
+}));
+
+  return (
+ <CartContext.Provider value={provided}>
+  <div className={styles.container}>
+    <p className={styles.counter}>{cartCount}</p>
   </div>
-);
+  </CartContext.Provider>
+)};
 
 export default CartButton;

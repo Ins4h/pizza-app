@@ -1,0 +1,20 @@
+@import './../../styles/variables';
+
+.header_container {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 60rem;
+    height: 5rem;
+    border: 1px black solid;
+    font-family: $secondary-font;
+    font-size: $font-size-xl;
+    color: $primary-color;
+}
+
+.header_image {
+    justify-self: flex-start;
+    width: 100px;
+}

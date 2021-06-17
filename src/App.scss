@@ -1,0 +1,8 @@
+@import './styles/variables';
+
+.App {
+  text-align: center;
+  background-color: $background-color;
+  color: $text-color;
+  font-family: $primary-font;
+}

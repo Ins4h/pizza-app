@@ -1,4 +1,4 @@
-.cart-container {
+.container {
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -12,15 +12,10 @@
     border-radius: 50%;
 }
 
-.cart-container img {
-    width: 40px;
-    height: auto;
-}
-
-.cart-container .counter {
+.counter {
     position: absolute;
     right: -4px;
-    bottom: -4px;
+    bottom: -15px;
     background-color: #ff8800D9;
     border: 2px solid #ff5e00;
     color: white;
@@ -31,5 +26,3 @@
     width: 20px;
     height: 20px;
 }
-
-/* Nawet nie pochwalą :( */

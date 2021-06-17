@@ -1,17 +1,24 @@
-import React from 'react';
-import './PizzaItem.css';
+import React, {useContext} from 'react';
+import styles from './PizzaItem.module.scss';
+import CartContext from '../context/cart-context';
 
-function PizzaItem({ img, name, desc, priceBig, priceSmall }) {
+function PizzaItem({ img, name, desc, priceBig, priceSmall,grid }) {
+
+  // const {cartCount, setCartCount} = useContext(CartContext);
+  const handleClick = () =>{
+    console.log('s')
+     }
+
   return (
-    <div className='pizza-box'>
-      <img className='pizza-image' src={img} alt='asd' title='tytul' />
-      <div className='pizza-wrapper'>
-        <h1 className='pizza-name'>{name}</h1>
-        <p className='pizza-descr'>{desc}</p>
+    <div className={(grid)?`${styles.grid} ${styles.pizza_box}`:styles.pizza_box}>
+      <img className={styles.pizza_image} src={img} alt='asd' title='tytul' />
+      <div className={styles.pizza_wrapper}>
+        <h3 className={styles.pizza_name}>{name}</h3>
+        <p className={styles.pizza_descr}>{desc}</p>
       </div>
-      <div className='pizza-size'>
-        <button className='size-button'>{priceSmall}</button>
-        <button className='size-button'>{priceBig}</button>
+      <div className={styles.pizza_size}>
+        <button className={styles.size_button} onClick={handleClick}>{priceSmall}</button>
+        <button className={styles.size_button}>{priceBig}</button>
       </div>
     </div>
   );

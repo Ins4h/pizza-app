@@ -1,16 +1,14 @@
 import React from 'react';
-// import './PizzaList.css';
 import PizzaItem from '../pizzaItem/PizzaItem';
 import pizzaData from '../../pizzas.json';
+import styles from './PizzaList.module.scss'
 
-const PizzaList = () => {
+const PizzaList = ({isGrid}) => {
   return (
-    <div className='pizza-list'>
-      <ul className='pizza-list__list'>
-        {pizzaData.map((el) => (
-          <PizzaItem {...el} />
+    <div className={(isGrid)?`${styles.grid} grid`:styles.container}>
+        {pizzaData.map((el, index) => (
+          <PizzaItem key={index} {...((isGrid)?{grid:true}:{})} {...el}/>
         ))}
-      </ul>
     </div>
   );
 };
