@@ -4,10 +4,9 @@ import CartContext from '../context/cart-context';
 
 function PizzaItem({ img, name, desc, priceBig, priceSmall,grid }) {
 
-  // const {cartCount, setCartCount} = useContext(CartContext);
-  const handleClick = () =>{
-    console.log('s')
-     }
+  const {setCartCount} = useContext(CartContext);
+  const handleClick = () => setCartCount(prevState => prevState +1)
+
 
   return (
     <div className={(grid)?`${styles.grid} ${styles.pizza_box}`:styles.pizza_box}>
@@ -18,7 +17,7 @@ function PizzaItem({ img, name, desc, priceBig, priceSmall,grid }) {
       </div>
       <div className={styles.pizza_size}>
         <button className={styles.size_button} onClick={handleClick}>{priceSmall}</button>
-        <button className={styles.size_button}>{priceBig}</button>
+        <button className={styles.size_button} onClick={handleClick}>{priceBig}</button>
       </div>
     </div>
   );
