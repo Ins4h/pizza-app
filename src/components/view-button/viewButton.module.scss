@@ -1,4 +1,15 @@
-.view_button {
-  margin: 5px;
-  padding: 2px;
+.button_wrapper {
+  text-align: right;
+  padding-right: 100px;
+  .view_button {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    background-color: #fff;
+  }
 }
