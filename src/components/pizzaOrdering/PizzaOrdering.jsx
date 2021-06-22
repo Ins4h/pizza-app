@@ -9,11 +9,13 @@ function PizzaOrdering() {
   return (
     <div>
       <Header title="Witaj w naszej pizzero" />
-      <Route path="/" exact>
         <ViewButton isGrid={isGrid} setIsGrid={setIsGrid} />
+        <Route path="/" exact>
         <PizzaList isGrid={isGrid} />
       </Route>
-      <Route path="/cart" component={CartView} exact />
+      <Route path="/cart"  exact >
+        <CartView isGrid={isGrid}/>
+      </Route>
     </div>
   );
 }

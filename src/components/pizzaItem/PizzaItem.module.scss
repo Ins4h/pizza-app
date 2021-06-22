@@ -39,6 +39,7 @@
     align-items: center;
     width: 150px;
 
+
     button {
       width: 50px;
       padding: 5px;
@@ -86,6 +87,8 @@
       bottom: 0;
       width: 100%;
 
+    
+
       button {
         width: 100%;
         border-radius: 0;
@@ -102,6 +105,9 @@
         &:hover {
           background-color: $secondary-color;
           transform: scale(1.1);
+        }
+       &.delete{
+          border-radius: 0 0 1rem 1rem;
         }
       }
     }

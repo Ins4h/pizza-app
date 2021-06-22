@@ -13,28 +13,37 @@ function PizzaItem({
   price,
   id,
   isShopCard,
+  quantity
 }) {
-  window.addEventListener("popstate", () => {
-    console.log(window.location.pathnam);
-  });
+  // window.addEventListener("popstate", () => {
+  //   console.log(window.location.pathnam);
+  // });
 
-  const { state, dispatch } = useContext(CartContext);
+  const { dispatch } = useContext(CartContext);
   const handleClick = (desc, img, name, price) =>
-    dispatch({
+{  
+  // debugger;
+  dispatch({
       type: "addPizza",
       newPizza: {
         name,
         desc,
         img,
-        price,
+       price,
+       quantity: 1,
         id: uuidv4(),
       },
-    });
+    })
+  };
 
-  const removeOrder = (key) => {
+  const removeOrder = ({id, name, price}) => {
     dispatch({
       type: "removePizza",
-      pizzaRemove: key,
+      pizzaRemove: {
+        id,
+        name,
+        price
+      }
     });
   };
   return (
@@ -49,8 +58,8 @@ function PizzaItem({
       <div className={styles.pizza_size}>
         {isShopCard === true ? (
           <>
-            <button onClick={() => removeOrder(id)}>
-              {price}
+            <button onClick={() => removeOrder({id, name, price})} className={styles.delete}>
+              {quantity} {price}
               <br />X
             </button>
           </>
