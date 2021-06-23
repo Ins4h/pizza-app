@@ -21,7 +21,7 @@ function PizzaItem({
 
   const { dispatch } = useContext(CartContext);
   const handleClick = (desc, img, name, price) =>
-{  
+{
   // debugger;
   dispatch({
       type: "addPizza",
@@ -69,13 +69,13 @@ function PizzaItem({
               className={styles.size_button}
               onClick={() => handleClick(desc, img, name, priceSmall)}
             >
-              {priceSmall}
+              {priceSmall}zł
             </button>
             <button
               className={styles.size_button}
               onClick={() => handleClick(desc, img, name, priceBig)}
             >
-              {priceBig}
+              {priceBig}zł
             </button>
           </>
         )}

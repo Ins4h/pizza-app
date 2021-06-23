@@ -1,15 +1,22 @@
 .button_wrapper {
   text-align: right;
   padding-right: 120px;
+
+  @media screen and (max-width: 1024px) {
+    padding-right: 1rem;
+  }
+
   .view_button {
     cursor: pointer;
-    height: 30px;
-    width: 30px;
+    height: 3rem;
+    width: 3rem;
     margin: 5px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    border-radius: 2px;
+    border: none;
+    border-radius: .5rem;
     background-color: #fff;
+    font-size: 1.2rem;
   }
 }
