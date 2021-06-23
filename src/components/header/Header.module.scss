@@ -37,14 +37,10 @@ a {
   width: 100px;
 }
 
-@media (min-width: 700px) {
+@media (max-width: 840px) {
   .header_container {
-    font-size: 2rem;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
   }
 }
-
-@media (min-width: 1000px) {
-  .header_container {
-    font-size: 3rem;
-  }
-} ;
