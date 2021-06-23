@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import styles from "./CartButton.module.scss";
-import { ImCart } from "react-icons/im";
+import { GrCart } from "react-icons/gr";
 import { CartContext } from "../context/cart-context";
 import { Link } from "react-router-dom";
 
@@ -10,7 +10,7 @@ const CartButton = () => {
   return (
     <div className={styles.container}>
       <Link to="/cart">
-        <ImCart />
+        <GrCart />
         <p className={styles.counter}>{state.orders.length}</p>
       </Link>
     </div>

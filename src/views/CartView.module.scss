@@ -1,14 +1,37 @@
+@import "../styles/variables";
+
 .listContainer {
 margin: 20px auto 0 auto;
 padding: 10px;
 width: 800px;
-border: 1px solid black;
+  button {
+    width: 12rem;
+    border: none;
+    border-radius: .5rem;
+    font-size: $font-size-m;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    margin: 1rem;
+    background-color: $secondary-color;
+    color: #fff;
+    font-family: $primary-font;
+    font-weight: 500;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+      &:hover {
+        background-color: $primary-color;
+        transform: scale(1.1);
+        transition: all .2s;
+      }
+  }
 }
+
+
 
 .grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 20px 20px;
+  grid-gap: 6rem 2rem;
   max-width: 400px;
   margin: 0 auto;
 }
@@ -28,7 +51,7 @@ border: 1px solid black;
 
   @media screen and (min-width: 1336px) {
     .grid {
-      max-width: 1400px;
+      max-width: 1250px;
     }
   }
 }

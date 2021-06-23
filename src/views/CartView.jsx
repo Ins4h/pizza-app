@@ -17,7 +17,7 @@ const CartView = ({isGrid}) => {
         <PizzaItem key={index} {...order} isShopCard={true} {...((isGrid)?{grid:true}:{})}/>
       ))}
       <div>{Math.round(state.orders.reduce((prevValue, currValue) => prevValue + currValue.price * currValue.quantity ,0) * 100) / 100}zł</div>
-      <button onClick={()=>postOrders({orders: {...state.orders}})}>Send Orders</button>
+      <button onClick={()=>postOrders({orders: {...state.orders}})}>Zamawiam</button>
       </div>
   );
 };

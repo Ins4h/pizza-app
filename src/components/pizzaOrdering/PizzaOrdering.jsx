@@ -8,7 +8,7 @@ function PizzaOrdering() {
   const [isGrid, setIsGrid] = useState(false);
   return (
     <div>
-      <Header title="Witaj w naszej pizzero" />
+      <Header title="Trattoria la React" />
         <ViewButton isGrid={isGrid} setIsGrid={setIsGrid} />
         <Route path="/" exact>
         <PizzaList isGrid={isGrid} />
