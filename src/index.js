@@ -1,19 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
-// import MainView from "./views/MainView";
 import './styles/global.scss';
-import { BrowserRouter, Route } from "react-router-dom";
-import CartView from "./views/CartView";
+import { BrowserRouter } from "react-router-dom";
 import { StateProvider } from "./components/context/cart-context";
 import MainView from "./views/MainView";
-import App from "./App";
 
-const Routes = () => <StateProvider></StateProvider>;
+// const Routes = () => <StateProvider></StateProvider>;
 
 ReactDOM.render(
   <React.StrictMode>
     <StateProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <MainView />
       </BrowserRouter>
     </StateProvider>
