@@ -33,11 +33,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: actions/checkout@v2
     - run: npm test
-    - uses: actions/upload-artifact@v2
-      with:
-        name: prod-file
-        path: ./build
+    # - uses: actions/upload-artifact@v2
+    #   with:
+    #     name: prod-file
+    #     path: ./build
 
 
   deploy:
