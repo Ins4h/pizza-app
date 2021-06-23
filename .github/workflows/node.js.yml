@@ -53,9 +53,9 @@ jobs:
     steps:
       - uses: actions/download-artifact@v2
         with:
-          name: buildPath
+          name: prod-files
           path: ./build
       - uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          github_token: ${{ secrets.GITHUB_TOKEN}}
+          publish_dir: ./build
