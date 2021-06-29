@@ -21,7 +21,7 @@ const CartView = ({ isGrid }) => {
           {...(isGrid ? { grid: true } : {})}
         />
       ))}
-      <div>
+      <div id="sumDiv">
         {Math.round(
           state.orders.reduce(
             (prevValue, currValue) =>
