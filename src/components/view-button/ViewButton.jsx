@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./viewButton.module.scss";
 import { ImList, ImTable2 } from "react-icons/im";
 
-const viewButton = ({ viewButtonImg, setIsGrid, isGrid }) => {
+const ViewButton = ({ viewButtonImg, setIsGrid, isGrid }) => {
   return (
     <div className={styles.button_wrapper}>
       <button
@@ -14,6 +14,7 @@ const viewButton = ({ viewButtonImg, setIsGrid, isGrid }) => {
         <ImList />
       </button>
       <button
+      data-testid='grid-button'
         className={styles.view_button}
         onClick={() => {
           setIsGrid(true);
@@ -25,4 +26,4 @@ const viewButton = ({ viewButtonImg, setIsGrid, isGrid }) => {
   );
 };
 
-export default viewButton;
+export default ViewButton;

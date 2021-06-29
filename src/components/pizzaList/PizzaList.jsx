@@ -32,7 +32,7 @@ const [list, setList] = useState([])
   getMenu().then(response=> setList(response))
   }, []);
   return (
-    <div className={(isGrid)?`${styles.grid} grid`:styles.container}>
+    <div data-testid="pizza-list" className={(isGrid)?`${styles.grid} grid`:styles.container}>
         {list.map((el, index) => (
           <PizzaItem key={index} {...((isGrid)?{grid:true}:{})} {...el}/>
         ))}
